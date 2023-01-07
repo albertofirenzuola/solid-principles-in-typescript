@@ -3,11 +3,16 @@
   "version": "0.0.1",
   "description": "Explanation of SOLID principles in Typescript",
   "scripts": {
-    "run-1spc": "ts-node-transpile-only ./src/1-Single-responsibility-principle/good-example.ts",
-    "run-2ocp": "ts-node-transpile-only ./src/2-Open–closed-principle/good-example.ts",
-    "run-3lsp": "ts-node-transpile-only ./src/3-Liskov-substitution-principle/good-example.ts",
-    "run-4isp": "ts-node-transpile-only ./src/4-Interface-segregation-principle/good-example.ts",
-    "run-5dip": "ts-node-transpile-only ./src/5-Dependency-inversion-principle/good-example.ts"
+    "run-1spc-bad": "ts-node-transpile-only ./src/1-Single-responsibility-principle/bad-example.ts",
+    "run-1spc-good": "ts-node-transpile-only ./src/1-Single-responsibility-principle/good-example.ts",
+    "run-2ocp-bad": "ts-node-transpile-only ./src/2-Open–closed-principle/bad-example.ts",
+    "run-2ocp-good": "ts-node-transpile-only ./src/2-Open–closed-principle/good-example.ts",
+    "run-3lsp-bad": "ts-node-transpile-only ./src/3-Liskov-substitution-principle/bad-example.ts",
+    "run-3lsp-good": "ts-node-transpile-only ./src/3-Liskov-substitution-principle/good-example.ts",
+    "run-4isp-bad": "ts-node-transpile-only ./src/4-Interface-segregation-principle/bad-example.ts",
+    "run-4isp-good": "ts-node-transpile-only ./src/4-Interface-segregation-principle/good-example.ts",
+    "run-5dip-bad": "ts-node-transpile-only ./src/5-Dependency-inversion-principle/bad-example.ts",
+    "run-5dip-good": "ts-node-transpile-only ./src/5-Dependency-inversion-principle/good-example.ts"
   },
   "repository": {
     "type": "git",
