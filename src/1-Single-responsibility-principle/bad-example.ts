@@ -17,7 +17,7 @@ export class SuperHero {
     constructor(
         public name: string
     ) {
-        console.log('Super Hero created');
+        console.log(`SuperHero created: ${name}`);
 
         this.db = new Database();
         this.db.connection();

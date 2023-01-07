@@ -15,7 +15,7 @@ export class SuperHero {
     constructor(
         public name: string
     ) {
-        console.log('SuperHero created');
+        console.log(`SuperHero created: ${name}`);
     }
 
 }
